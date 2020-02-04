@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bookify"
+version = "1.0.0"
+description = "Transform pdf files into books for double-sided printing"
+authors = ["Albert <github@albert.sh>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+stapler3 = "^1.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+bookify = 'bookify:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
