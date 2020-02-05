@@ -24,8 +24,9 @@ sudo dnf install texlive-pdfjam-bin # Fedora
 ### Build
 ```
 pip install bookify
-bookify formatted.pdf
+bookify formatted.pdf 20
 ```
+**Usage**: First argument (`formatted.pdf`) is the name of the pdf and second argument (`20`) is the signature size, that is, the number of pages per booklet
 
 ## Extra: Getting books from wattpad
 ```
