@@ -12,6 +12,8 @@
 	- It's recommended to set the size of the document to A5 and use generous margins
 3. Export the document into a pdf (we will refer to this pdf as `formatted.pdf`)
 
+**Note**: You can use [this docx](https://raw.githubusercontent.com/corollari/bookify/master/book.docx) as a template and/or example of the book layout described.
+
 ## Build book
 ### Install pdfjam
 ```
