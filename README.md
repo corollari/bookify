@@ -27,10 +27,10 @@ pip install bookify
 bookify formatted.pdf
 ```
 
-## Appendix: Getting books from wattpad
+## Extra: Getting books from wattpad
 ```
 pip install FanFicFare
-fanficfare https://www.wattpad.com/story/31983802-kaylor-the-timeline
+fanficfare https://www.wattpad.com/story/9999999-story-title
 ```
 Use URLs like:
  * https://www.wattpad.com/story/9999999-story-title
