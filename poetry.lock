@@ -28,21 +28,33 @@ version = "1.14.0"
 [[package]]
 category = "main"
 description = "Manipulate PDF documents from the command line"
-name = "stapler3"
+name = "stapler"
 optional = false
-python-versions = ">=3.7,<4.0"
-version = "1.0.1"
+python-versions = ">=3.4,<4.0"
+version = "1.0.0b1"
 
 [package.dependencies]
 PyPDF2 = ">=1.26"
 more-itertools = ">=2.2,<6.0.0"
 
 [metadata]
-content-hash = "289ace93ed18143e582056409575504dd7cfbe7d01a73bfc032316ebe6e9a633"
+content-hash = "468dc4f4aee7d947ef6deae6beadaef4754230112f034b57c54fbdb6cb5fe3ab"
 python-versions = "^3.7"
 
-[metadata.hashes]
-more-itertools = ["38a936c0a6d98a38bcc2d03fdaaedaba9f412879461dd2ceff8d37564d6522e4", "c0a5785b1109a6bd7fac76d6837fd1feca158e54e521ccd2ae8bfe393cc9d4fc", "fe7a7cae1ccb57d33952113ff4fa1bc5f879963600ed74918f1236e212ee50b9"]
-pypdf2 = ["e28f902f2f0a1603ea95ebe21dff311ef09be3d0f0ef29a3e44a932729564385"]
-six = ["236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a", "8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"]
-stapler3 = ["6c1d7f171beeaf2f09fa8094451516ef7d40bfc96ae829ab0a248dc93cf5fa40", "b2e43656e54bacae480ecd939862a8e5d4a6a48e6847d07e63f55680f24fc97b"]
+[metadata.files]
+more-itertools = [
+    {file = "more-itertools-5.0.0.tar.gz", hash = "sha256:38a936c0a6d98a38bcc2d03fdaaedaba9f412879461dd2ceff8d37564d6522e4"},
+    {file = "more_itertools-5.0.0-py2-none-any.whl", hash = "sha256:c0a5785b1109a6bd7fac76d6837fd1feca158e54e521ccd2ae8bfe393cc9d4fc"},
+    {file = "more_itertools-5.0.0-py3-none-any.whl", hash = "sha256:fe7a7cae1ccb57d33952113ff4fa1bc5f879963600ed74918f1236e212ee50b9"},
+]
+pypdf2 = [
+    {file = "PyPDF2-1.26.0.tar.gz", hash = "sha256:e28f902f2f0a1603ea95ebe21dff311ef09be3d0f0ef29a3e44a932729564385"},
+]
+six = [
+    {file = "six-1.14.0-py2.py3-none-any.whl", hash = "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"},
+    {file = "six-1.14.0.tar.gz", hash = "sha256:236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"},
+]
+stapler = [
+    {file = "stapler-1.0.0b1-py3-none-any.whl", hash = "sha256:d36cd2a48ea627791f0824660edf9470980905cbbcd732b739a9160ca01a311e"},
+    {file = "stapler-1.0.0b1.tar.gz", hash = "sha256:a651d5696214b0ec933e452839c1188df599567accd24976953da208835643de"},
+]
